@@ -1,5 +1,7 @@
 React Interview Questions & Answers
 
+
+1. ## Differentiate between Real DOM and Virtual DOM.
 # Real DOM vs Virtual DOM
 
 ## Real DOM (Document Object Model)
