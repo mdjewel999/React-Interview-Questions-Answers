@@ -389,6 +389,14 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+1.  ### React কি?
+
+    React(অথবা React.js বা ReactJS) হলো **একটি ওপেন-সোর্স ফ্রন্ট-এন্ড জাভাস্ক্রিপ্ট লাইব্রেরি**, যা বিশেষভাবে একপুষ্ট ব্যবহারযোগ্য ইউজার ইন্টারফেস তৈরির জন্য ব্যবহৃত হয়, সহজে বলতে গেলে, একপুষ্ট অ্যাপ্লিকেশনের জন্য। এটি ডিক্লারেটিভ ভাবে কম্পোনেন্ট ভিত্তিক ওয়েব এবং মোবাইল অ্যাপসের ভিউ লেয়ার হ্যান্ডল করতে ব্যবহৃত হয়।
+    
+    React তৈরি হয়েছিল [জোর্ডান ওয়াক](https://github.com/jordwalke), একজন ফেসবুকে কাজ করছেন সফটওয়্যার ইঞ্জিনিয়ার। রিয়েক্টটি প্রথমবারে ফেসবুকের নিউজ ফিডে 2011 সালে এবং ইনস্টাগ্রামে 2012 সালে প্রযুক্ত হয়।
+
+   
+
 2. ### What is the history behind React evolution?
     The history of ReactJS started in 2010 with the creation of **XHP**. XHP is a PHP extension which improved the syntax of the language such that XML document fragments become valid PHP expressions and the primary purpose was used to create custom and reusable HTML elements. 
     
@@ -399,7 +407,18 @@
     **Note:** JSX comes from the idea of XHP
 
     **[⬆ Back to Top](#table-of-contents)**
-    
+
+    2. ### React বিকাশের পিছনের ইতিহাস
+    ReactJS এর ইতিহাস 2010 সালের সাথে শুরু হয়েছিল **XHP** এর সৃষ্টির সাথে। XHP হলো একটি PHP এক্সটেনশন, যা ভাষার সিনট্যাক্স উন্নত করে তাতে XML ডকুমেন্ট ফ্র্যাগমেন্ট ভালিড PHP এক্সপ্রেশন হয়ে আসে এবং প্রধান উদ্দেশ্যটি ছিল কাস্টম এবং পুনরাবৃত্তি করতে HTML এলিমেন্ট তৈরি করা।
+
+    এই এক্সটেনশনের প্রধান নীতি ছিল ফ্রন্ট-এন্ড কোডটি সহজভাবে বোঝাতে এবং ক্রস-সাইট স্ক্রিপ্টিং আক্রমণ থেকে বিরত থাকতে সাহায্য করা। এই প্রকল্পটি অপরাধী ব্যবহারকারী দ্বারা দাখিল করা দুশ্মনকারী বিষয়বস্তুগুলি প্রতিরোধ করতে সফল ছিল।
+
+    তবে XHP এর সাথে একটি বিভিন্ন সমস্যা ছিল, যেখানে ডাইনামিক ওয়েব অ্যাপ্লিকেশনগুলির জন্য কয়েকটি সার্ভার রাউন্ডট্রিপ প্রয়োজন এবং XHP এটি সমাধান করেনি। এছাড়াও, অ্যাপ্লিকেশনে ছোট পরিবর্তনের জন্য সম্পূর্ণ UI পুনরায় রেন্ডার করা হয়েছিল। পরবর্তীতে, জর্ডান এর প্রয়োজনে প্রথম প্রোটোটাইপ নামে **FaxJ** হিসেবে রিয়েলাইজ হয়, এবং সময়ের পর রিয়েক্টকে জাভাস্ক্রিপ্ট বিশ্বে একটি নতুন লাইব্রেরি হিসেবে প্রস্তুত করা হয়েছে।
+
+    **মন্তব্য:** JSX এর উদ্ভাবটি XHP থেকে আসে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**                   
+
 2.  ### What are the major features of React?
 
     The major features of React are:
@@ -411,6 +430,24 @@
     - Uses **reusable/composable** UI components to develop the view.
 
     **[⬆ Back to Top](#table-of-contents)**
+
+
+2.  ### React-এর প্রধান বৈশিষ্ট্যগুলি
+
+    React-এর প্রধান বৈশিষ্ট্যগুলি:
+
+    - **JSX** সিনট্যাক্স ব্যবহার করে, এটি একটি জাভাস্ক্রিপ্ট সিনট্যাক্স এক্সটেনশন, যা ডেভেলপারদেরকে তাদের জাভাস্ক্রিপ্ট কোডে এইচটিএমএল লেখার অনুমতি দেয়।
+    - দারুণ খরচের কারণে 
+    **ভার্চুয়াল ডম** ব্যবহার করে রিয়েল ডমের পরিবর্তে।
+
+    - **সার্ভার-সাইড রেন্ডারিং** সাপোর্ট করে, যা সার্চ ইঞ্জিন অপটিমাইজেশন (SEO) জন্য উপকারী।
+
+    - **একদিকে বা একদিকে** ডেটা ফ্লো বা ডেটা বাইন্ডিং অনুসরণ করে।
+    - দৃষ্টিভঙ্গি/সংযোজনযোগ্য 
+
+    **UI কম্পোনেন্ট** ব্যবহার করে ভিউ তৈরি করতে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**             
 
 3.  ### What is JSX?
 
@@ -458,6 +495,54 @@
     **Note:** JSX is stricter than HTML
 
     **[⬆ Back to Top](#table-of-contents)**
+
+3.  ### JSX কি?
+
+    _JSX_ এর অর্থ হলো _JavaScript XML_ এবং এটি ECMAScript এর একটি XML-এর মতো সিনট্যাক্স এক্সটেনশন। পুরোটা মূলত, এটি শুধুমাত্র `React.createElement(type, props, ...children)` ফাংশনের জন্য সিনট্যাকটিক শুগার প্রদান করে, যা আমাদেরকে জাভাস্ক্রিপ্টের সাথে এবং HTML এর মতো টেমপ্লেট সিনট্যাক্স দেয়।
+
+    নিচের উদাহরণে, `<h1>` ট্যাগের মধ্যে লেখা জাভাস্ক্রিপ্ট ফাংশনের মধ্যে প্রস্তুত হয়ে আসে।
+
+    ```jsx harmony
+    export default function App() {
+      return (
+          <h1 className="greeting">{"হ্যালো, এটি একটি JSX কোড!"}</h1>
+      );
+    }
+    ```
+    আপনি JSX সিনট্যাক্স ব্যবহার না করতে চাইলে, সংজ্ঞানপূর্ণ জাভাস্ক্রিপ্ট কোডটি নিচের মতো লেখতে হবে,
+
+    ```javascript
+    import { createElement } from 'react';
+
+    export default function App() {
+      return createElement(
+        'h1',
+        { className: 'greeting' },
+        'হ্যালো, এটি একটি JSX কোড!'
+      );
+    }
+    ```
+
+     <details><summary><b>ক্লাস দেখুন</b></summary>
+     <p>
+
+    ```jsx harmony
+    class App extends React.Component {
+      render() {
+        return (
+            <h1 className="greeting">{"হ্যালো, এটি একটি JSX কোড!"}</h1>
+        );
+      }
+    }
+    ```
+
+     </p>
+     </details>
+
+    **নোট:** JSX এইচটিএমএল থেকে কড়া
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 
 4.  ### What is the difference between Element and Component?
 
@@ -511,6 +596,59 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+4.  ### এলিমেন্ট এবং কম্পোনেন্টের মধ্যে পার্থক্য কি?
+
+    একটি _এলিমেন্ট_ হলো একটি সাধারিত অবজেক্ট, যা আপনি চান তা মূল্যায়ন করা হোক স্ক্রীনে যে কোনও DOM নোড বা অন্য কোম্পোনেন্টের দৃষ্টিকোণ থেকে। _এলিমেন্টগুলি_ তাদের প্রপস এলিমেন্টগুলি অন্তর্ভুক্ত করতে পারে। একবার একটি এলিমেন্ট তৈরি হলে, এটি মিউটেট হতে পারবে না।
+
+    React এলিমেন্টের জন্য জাভাস্ক্রিপ্ট প্রতিষ্ঠান(JSX ছাড়া) হলো নিম্নলিখিত:
+
+    ```javascript
+    const element = React.createElement("div", { id: "login-btn" }, "Login");
+    ```
+    এবং এই এলিমেন্টটি JSX ব্যবহার করে সহজে লেখা হয়েছে
+
+    ```html
+      <div id="login-btn">Login</div>
+    ```
+
+    উপরের `React.createElement()` ফাংশনটি নিম্নলিখিত অবজেক্ট কে ফিরিয়ে দেয়:
+
+    ```javascript
+    {
+      type: 'div',
+      props: {
+        children: 'Login',
+        id: 'login-btn'
+      }
+    }
+    ```
+
+    আবেগপূর্ণভাবে, এই এলিমেন্টটি `ReactDOM.render()` ব্যবহার করে DOM এ রেন্ডার হয়।
+
+    যদিও **একটি কম্পোনেন্ট** কয়েকটি বিভিন্ন উপায়ে ঘোষণা করা যায়। এটি একটি `render()` মেথড সহ একটি ক্লাস হতে পারে বা এটি একটি ফাংশন হিসেবে সংজ্ঞান করা যাতে প্রতিষ্ঠান হয়। যেকোনও ক্ষেত্রে, এটি ইনপুট হিসেবে প্রপস নিয়ে, এবং একটি JSX ট্রি হিসেবে আউটপুট দেয়:
+
+    ```javascript
+    const Button = ({ handleLogin }) => (
+      <div id={"login-btn"} onClick={handleLogin}>
+        Login
+      </div>
+    );
+    ```
+
+    তারপরে JSX টি `React.createElement()` ফাংশন ট্রি-তে ট্রান্সপাইল হয়:
+
+    ```javascript
+    const Button = ({ handleLogin }) =>
+      React.createElement(
+        "div",
+        { id: "login-btn", onClick: handleLogin },
+        "Login"
+      );
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
+
 5.  ### How to create components in React?
 
     Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component.
@@ -534,6 +672,31 @@
        ```
 
     **[⬆ Back to Top](#table-of-contents)**
+
+5.  ### React-এ কম্পোনেন্ট তৈরির পদ্ধতি
+
+    কম্পোনেন্টগুলি হলো রিয়েক্টে ইউজার ইন্টারফেস (UI) তৈরির বিনা স্তূপে। একটি কম্পোনেন্ট তৈরির জন্য দুটি সম্ভাব্য উপায় আছে।
+
+    1. **ফাংশন কম্পোনেন্টসমূহ:** এটি একটি কম্পোনেন্ট তৈরির সবচেয়ে সহজ উপায়। এগুলি হলো শুধুমাত্র প্যারামিটার হিসেবে প্রপস অবজেক্ট গ্রহণ করতে পারে এবং প্রস্তুত হতে রিয়েক্ট এলিমেন্টসমূহ ফিরিয়ে দেয়:
+
+       ```jsx harmony
+       function Greeting({ message }) {
+         return <h1>{`হ্যালো, ${message}`}</h1>;
+       }
+       ```
+
+    2. **ক্লাস কম্পোনেন্টসমূহ:** আপনি একটি কম্পোনেন্ট সংজ্ঞায়িত করতে ES6 ক্লাসও ব্যবহার করতে পারেন। উপরের ফাংশন কম্পোনেন্টটি ক্লাস কম্পোনেন্ট হিসেবে লেখা হতে পারে:
+
+       ```jsx harmony
+       class Greeting extends React.Component {
+         render() {
+           return <h1>{`হ্যালো, ${this.props.message}`}</h1>;
+         }
+       }
+       ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 
 6.  ### When to use a Class Component over a Function Component?
 
@@ -560,6 +723,30 @@
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
+6.  ### কখন ক্লাস কম্পোনেন্ট ব্যবহার করবেন এবং ফাংশন কম্পোনেন্ট ব্যবহার করবেন কেন?
+
+    Hooks যোগ হওয়ার পরে (অর্থাৎ React 16.8 থেকে) সবসময় শুনানো হয় যে React-এ ক্লাস কম্পোনেন্টের পরিবর্তে ফাংশন কম্পোনেন্ট ব্যবহার করতে হবে। কারণ আপনি ফাংশন কম্পোনেন্টে ক্লাস কম্পোনেন্টের সবগুলি সুবিধা, লাইফসাইকেল মেথড এবং অন্যান্য ফিচারগুলি ব্যবহার করতে পারেন।
+
+    তবে, কিছু ক্ষেত্রে ক্লাস কম্পোনেন্ট ব্যবহার করতে হতে পারে:
+
+      1. যদি আপনি একটি রিয়েক্ট ফাংশনালিটি ব্যবহার করা যা ফাংশন কম্পোনেন্টে এখনও উপস্থিত না হয়, যেমন এরর বাউন্ডারিজ। 
+      2. পুরোনো সংস্করণে, যদি কম্পোনেন্টের প্রয়োজন হয় _স্টেট অথবা লাইফসাইকেল মেথড_, তাদের জন্য আপনাকে ক্লাস কম্পোনেন্ট ব্যবহার করতে হতে পারে।
+
+    **নোট:** আপনি এই বিনামূল্যে [রিয়াক্ট এরর বাউন্ডারি](https://github.com/bvaughn/react-error-boundary) থার্ড-পার্টি কম্পোনেন্টটি ব্যবহার করতে পারেন, কোনও ক্লাস লেখার প্রয়োজন নেই। অর্থাৎ, এরর বাউন্ডারির জন্য ক্লাস কম্পোনেন্টগুলির জন্য কোনও প্রয়োজন নেই।
+
+    উপরন্তু, উপরের লাইব্রেরি থেকে এরর বাউন্ডারি ব্যবহারের ব্যবহার খুবই সোজা।
+
+    ```jsx
+    "use client";
+
+    import { ErrorBoundary } from "react-error-boundary";
+
+    <ErrorBoundary fallback={<div>Something went wrong</div>}>
+      <ExampleApplication />
+    </ErrorBoundary>
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 7.  ### What are Pure Components?
 
@@ -608,6 +795,54 @@
     **Note:** `React.memo()` is a higher-order component.
 
     **[⬆ Back to Top](#table-of-contents)**
+7.  ### পিউর কম্পোনেন্ট কি?
+
+    পিউর কম্পোনেন্টগুলি হলো এমন কম্পোনেন্টগুলি যা একই অবস্থা এবং প্রপ্সের জন্য একই আউটপুট রেন্ডার করে। ফাংশন কম্পোনেন্টগুলির মধ্যে, এই পিউর কম্পোনেন্টগুলি মেমোইয়াইজড `React.memo()` API দিয়ে একই ফলাফল অর্জন করতে পারেন। এই API পূর্বের প্রপস এবং নতুন প্রপস মধ্যে শালো তুলনা করে অপ্রয়োজনীয় রিরেন্ডার প্রতিরোধ করে। এটি কারণে পারফরম্যান্স অপটিমাইজেশনে সাহায্য করতে পারে।
+
+    তবে একই সময়ে, এটি আপনি যদি একই স্থিতি আবার সেট করতে যায় তাদের পূর্ববর্তী অবস্থা দিয়ে তুলনা করবে না কারণ ফাংশন কম্পোনেন্ট ইতিমধ্যে ডিফল্টভাবে অপ্রয়োজনীয় রেন্ডারিং প্রতিরোধ করে।
+
+    মেমোইয়াইজড কম্পোনেন্টের সিনট্যাক্টিক প্রতিনিয়তই নীচের মতো দেখায়,
+
+    ```jsx
+    const MemoizedComponent = memo(SomeComponent, arePropsEqual?);
+    ```
+
+    নিচের উদাহরণে দেখানো হয়েছে কীভাবে চাইল্ড কম্পোনেন্ট (অর্থাৎ, EmployeeProfile) প্যারেন্ট কম্পোনেন্ট (অর্থাৎ, EmployeeRegForm) দ্বারা পাঠানো একই প্রপসের জন্য পুনরায় রেন্ডার বন্ধ করে।
+
+    ```jsx
+      import { memo, useState } from 'react';
+
+      const EmployeeProfile = memo(function EmployeeProfile({ name, email }) {
+        return (<>
+              <p>Name:{name}</p>
+              <p>Email: {email}</p>
+              </>);
+      });
+      export default function EmployeeRegForm() {
+        const [name, setName] = useState('');
+        const [email, setEmail] = useState('');
+        return (
+          <>
+            <label>
+              Name: <input value={name} onChange={e => setName(e.target.value)} />
+            </label>
+            <label>
+              Email: <input value={email} onChange={e => setEmail(e.target.value)} />
+            </label>
+            <hr/>
+            <EmployeeProfile name={name}/>
+          </>
+        );
+      }
+    ```
+
+    উপরের কোডে, email প্রপস চালাতে পারেননি। তাই email প্রপস পরিবর্তনের জন্য কোনও পুনরায় রেন্ডার হবেনা।
+
+    ক্লাস কম্পোনেন্টের ক্ষেত্রে, কম্পোনেন্টগুলি যে প্যারিটি অথবা স্টেট পরিবর্তন হয়, তাদের জন্য পিউর কম্পোনেন্ট হয়ে যায় যেগুলি _`React.PureComponent`_ কে _`React.Component`_ এর পরিবর্তে ব্যবহার করে। প্রপস অথবা স্টেট পরিবর্তন হওয়ার সময়, _PureComponent_ স্বয়ংক্রিয়ভাবে `shouldComponentUpdate()` লাইফসাইকেল মেথড টি কল করে উভয় প্রপস এবং স্টেটের উপর শালো তৈরি করবে।
+
+    **নোট:** `React.memo()` হলো একটি হায়ার-অর্ডার কম্পোনেন্ট।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 8.  ### What is state in React?
 
@@ -661,6 +896,58 @@
     State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.
 
     **[⬆ Back to Top](#table-of-contents)**
+8.  ### React-এ স্টেট কী?
+
+    একটি কম্পোনেন্টের _স্টেট_ হলো এমন একটি অবজেক্ট যেটি কম্পোনেন্টের জীবনকালে পরিবর্তন হতে পারে। গুরুত্বপূর্ণ বিন্দু হলো যখনই স্টেট অবজেক্ট পরিবর্তন হয়, কম্পোনেন্টটি পুনরায় রেন্ডার হয়। সবসময় আমাদের স্টেটটি সহজ হতে সম্ভব এবং স্টেটফুল কম্পোনেন্টগুলির সংখ্যা কমাতে সুপারিশ করা হয়।
+
+    ![state](images/state.jpg)
+
+    চলুন **User** কম্পোনেন্টের একটি উদাহরণ দেখি যেখানে ম্যাসেজ স্টেট আছে। এখানে, **useState** হুকটি ব্যবহার করা হয়েছে যেটি User কম্পোনেন্টে স্টেট যোগ করতে ব্যবহৃত হয় এবং এটি বর্তমান স্থিতি এবং এটি আপডেট করার জন্য একটি ফাংশন দেয়।
+
+    ```jsx harmony
+    import React, { useState } from "react";
+
+    function User() {
+      const [message, setMessage] = useState("React পৃথিবীতে আপনাকে স্বাগতম");
+
+      return (
+        <div>
+          <h1>{message}</h1>
+        </div>
+      );
+    }
+    ```
+
+    <details><summary><b>ক্লাস দেখুন</b></summary>
+    <p>
+
+    ```jsx harmony
+    import React from 'react';
+    class User extends React.Component {
+      constructor(props) {
+        super(props);
+
+        this.state = {
+          message: "React পৃথিবীতে আপনাকে স্বাগতম",
+        };
+      }
+
+      render() {
+        return (
+          <div>
+            <h1>{this.state.message}</h1>
+          </div>
+        );
+      }
+    }
+    ```
+
+    </p>
+    </details>
+
+    স্টেট হলো প্রপসের মতো, কিন্তু এটি ব্যক্তিগত এবং সম্পূর্ণভাবে কম্পোনেন্ট দ্বারা নিয়ন্ত্রিত, অর্থাৎ, এটি যে কোনও অন্য কম্পোনেন্টের জন্য অ্যাক্সেসযোগ্য নয় যতক্ষণ না প্রপার্টি তার এটি পাস করতে নির্বাচন করে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 9.  ### What are props in React?
 
@@ -755,6 +1042,95 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+9.  ### React-এ প্রপস কী?
+
+    _প্রপস_ হলো কম্পোনেন্টগুলির ইনপুট। এটি একক মান বা একটি সেট মান যা হতে পারে, এই মানগুলি কম্পোনেন্টগুলিতে সৃষ্টির সময় একত্রিত হয় এবং এগুলি HTML ট্যাগের এট্রিবিউটের মতো। এখানে, ডেটা একটি প্যারেন্ট কম্পোনেন্ট থেকে একটি চাইল্ড কম্পোনেন্টে পাঠানো হয়।
+
+    React-এ প্রপস এর মৌলিক উদ্দেশ্য হলো কোম্পোনেন্ট কার্যক্ষমতা প্রদান করা ইত্যাদি:
+
+    1. আপনার কম্পোনেন্টে কাস্টম ডেটা পাঠানো।
+    2. স্টেট পরিবর্তন করা।
+    3. `this.props.reactProp` ব্যবহার করুন কম্পোনেন্টের `render()` মেথডের মধ্যে।
+
+    উদাহরণস্বরূপ, আসুন `reactProp` প্রপার্টি সহ একটি এলিমেন্ট তৈরি করা যাক:
+
+    ```jsx harmony
+    <Element reactProp={"1"} />
+    ```
+
+    এই `reactProp` (বা আপনি যা খুজে পেয়েছেন) এট্রিবিউট নাম তারপরে প্রাথমিকভাবে ইতস্ত্রীত হয় এবং যা মৌলভূতভাবে ইতস্ত্রীত হয় সব কম্পোনেন্টের উপরে React এর নেটিভ প্রপস অবজেক্টের সংযোজন হয়।
+
+    ```jsx harmony
+    props.reactProp
+    ```
+
+    উদাহরণস্বরূপ, ফাংশন কম্পোনেন্টে প্রপস এর ব্যবহার নিম্নলিখিত মত হয়:
+
+    ```jsx
+    import React from "react";
+    import ReactDOM from "react-dom";
+
+    const ChildComponent = (props) => {
+      return (
+        <div>
+          <p>{props.name}</p>
+          <p>{props.age}</p>
+        </div>
+      );
+    };
+
+    const ParentComponent = () => {
+      return (
+        <div>
+          <ChildComponent name="John" age="30" />
+          <ChildComponent name="Mary" age="25" />
+        </div>
+      );
+    };
+    ```
+
+    প্রপস অবজেক্ট থেকে প্রপার্টি গুলি ডিস্ট্রাকটিং ফিচার ব্যবহার করে সরাসরি অ্যাক্সেস করা যেতে পারে। উপরের চাইল্ড কম্পোনেন্টটি নিম্নলিখিত মধ্যে সহজভাবে হতে পারে।
+
+  ```jsx harmony
+    const ChildComponent = ({name, age}) => {
+        return (
+          <div>
+            <p>{name}</p>
+            <p>{age}</p>
+          </div>
+        );
+      };
+  ``` 
+
+  <details><summary><b>See Class</b></summary>
+     The Props accessed in Class Based Component as below
+
+  ```jsx
+        import React from "react";
+        import ReactDOM from "react-dom";
+
+        class ChildComponent extends React.Component {
+          render() {
+            return (
+              <div>
+                <p>{this.props.name}</p>
+                <p>{this.props.age}</p>
+              </div>
+            );
+          }
+        }
+
+        class ParentComponent extends React.Component {
+          render() {
+            return (
+              <div>
+                <ChildComponent name="John" age="30" />
+                <ChildComponent name="Mary" age="25" />
+              </div>
+            );
+          }
+        }
+  ```
 10. ### What is the difference between state and props?
 
     In React, both `state` and `props` are plain JavaScript objects and used to manage the data of a component, but they are used in different ways and have different characteristics.
@@ -762,6 +1138,13 @@
     `props` (short for "properties") are passed to a component by its parent component and are `read-only`, meaning that they cannot be modified by the component itself. props can be used to configure the behavior of a component and to pass data between components.
     
     **[⬆ Back to Top](#table-of-contents)**
+10. ### স্টেট এবং প্রপস এর মধ্যে পার্থক্য কি?
+
+    React-এ, স্টেট এবং প্রপস উভয়ই প্লেইন জাভাস্ক্রিপ্ট অবজেক্ট এবং একটি কম্পোনেন্টের ডেটা পরিচালনা করতে ব্যবহৃত হয়, তবে তারা ভিন্ন উপায়ে ব্যবহৃত হয় এবং তাদের আপেক্ষিক বৈশিষ্ট্য রয়েছে।
+    `স্টেট` টি কম্পোনেন্ট দ্বারা নিয়ন্ত্রিত হয় এবং `setState()` ফাংশন ব্যবহার করে আপডেট করা যায়। প্রপসের বিপরীতে, স্টেট কম্পোনেন্ট দ্বারা পরিবর্তন করা যায় এবং এটি কম্পোনেন্টের অভ্যন্তরিক অবস্থা পরিচালনা করতে ব্যবহৃত হয়। স্টেটে পরিবর্তন ঘটিত হলে কম্পোনেন্ট এবং তার শিশু পুনরায় রেন্ডার করা হয়।
+    `প্রপস` (সংক্ষেপে "প্রপার্টিস") কোনও কম্পোনেন্টের দ্বারা তার প্যারেন্ট কম্পোনেন্ট দ্বারা প্রদান করা হয় এবং `রিড-ওনলি` হয়, এর মাধ্যমে এটি কোম্পোনেন্ট দ্বারা স্বয়ং পরিবর্তন করা যায় না। প্রপস একটি কম্পোনেন্টের আচরণ কনফিগার করতে এবং একটি কম্পোনেন্ট থেকে ডেটা পাঠানোর জন্য ব্যবহৃত হতে পারে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**                     
 
 11. ### Why should we not update the state directly?
 
@@ -783,6 +1166,26 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+11. ### কেন আমরা স্টেট সরাসরি আপডেট করবো না?
+
+    আপনি যদি স্টেট সরাসরি আপডেট করার চেষ্টা করেন তাদের পুনরায় কম্পোনেন্টটি রিন্ডার হয়না।
+
+    ```javascript
+    // ভুল
+    this.state.message = "হ্যালো ওয়ার্ল্ড";
+    ```
+
+    পরিবর্তন করার বদলে `setState()` মেথড ব্যবহার করুন। এটি একটি কম্পোনেন্টের স্টেট অবজেক্টের জন্য একটি আপডেট সময়সূচি করে। যখন স্টেট পরিবর্তন হয়, কম্পোনেন্টটি পুনরায় রিন্ডার করার মাধ্যমে উত্তর দেয়।
+
+    ```javascript
+    // সঠিক
+    this.setState({ message: "হ্যালো ওয়ার্ল্ড" });
+    ```
+
+    **নোট:** আপনি স্টেট অবজেক্টে সরাসরি অ্যাসাইন করতে পারেন বা কনস্ট্রাক্টরে বা সর্বশেষ জাভাস্ক্রিপ্ট এর ক্লাস ফিল্ড ডিক্লারেশন সিনট্যাক্স ব্যবহার করে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 12. ### What is the purpose of callback function as an argument of `setState()`?
 
     The callback function is invoked when setState finished and the component gets rendered. Since `setState()` is **asynchronous** the callback function is used for any post action.
@@ -796,6 +1199,20 @@
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
+
+12. ### `setState()` এর আর্গুমেন্ট হিসেবে ক্যালব্যাক ফাংশনের উদ্দেশ্য কি?
+
+    ক্যালব্যাক ফাংশনটি সেটস্টেট শেষ হয়ে এবং কম্পোনেন্টটি রিন্ডার হতে গিয়ে ইনভোক হয়। ক্যারন্টি `setState()` এসিংক্রোনাস তাই ক্যালব্যাক ফাংশনটি ব্যবহার হয় পোস্ট একশনের জন্য।
+
+    **নোট:** এই ক্যালব্যাক ফাংশনটি ব্যবহার করা বরং লাইফসাইকেল মেথড ব্যবহার করা হোক তা প্রস্তুত হোক।
+
+    ```javascript
+    setState({ name: "John" }, () =>
+      console.log("নাম আপডেট হয়েছে এবং কম্পোনেন্টটি রিন্ডার হয়েছে")
+    );
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 13. ### What is the difference between HTML and React event handling?
 
@@ -835,6 +1252,46 @@
        Whereas in react you should not append `()` with the function name. (refer "activateLasers" function in the first point for example)
 
     **[⬆ Back to Top](#table-of-contents)**
+
+13. ### HTML এবং React ইভেন্ট হ্যান্ডলিং এর মধ্যে পার্থক্য কি?
+
+    HTML এবং React ইভেন্ট হ্যান্ডলিং এর মধ্যে কিছু প্রধান পার্থক্য নিম্নে দেখানো হয়েছে,
+
+    1. HTML-এ, ইভেন্ট এর নামগুলি সাধারিত _লোয়ারকেস_ হিসেবে প্রদর্শিত হয় যেটি একটি কৌশল:
+
+       ```html
+       <button onclick="activateLasers()"></button>
+       ```
+
+       যখন React-এ এটি _ক্যামেলকেস_ কৌশল অনুসরণ করে:
+
+       ```jsx harmony
+       <button onClick={activateLasers}>
+       ```
+
+    2. HTML-এ, ডিফল্ট আচরণ প্রতিরোধ করতে আপনি সাধারিতভাবে `false` রিটার্ন করতে পারেন:
+
+       ```html
+       <a
+         href="#"
+         onclick='console.log("The link was clicked."); return false;'
+       />
+       ```
+
+       যখন React-এ আপনাকে স্পষ্টভাবে `preventDefault()` কল করতে হবে:
+
+       ```javascript
+       function handleClick(event) {
+         event.preventDefault();
+         console.log("The link was clicked.");
+       }
+       ```
+
+    3. HTML-এ, ফাংশনটি কল করতে আপনাকে `()` অ্যাপেন্ড করতে হবে
+       আপনি React-এ ফাংশনের নামে `()` অ্যাপেন্ড করতে বলা হয়নি। (উদাহরণ হিসেবে প্রথম পয়েন্টে "activateLasers" ফাংশন দেখুন)
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 
 14. ### How to bind methods or event handlers in JSX callbacks?
 
@@ -884,6 +1341,54 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+14. ### JSX ক্যালব্যাকে মেথড বা ইভেন্ট হ্যান্ডলার কিভাবে বাইন্ড করতে হয়?
+
+    ক্লাস কম্পোনেন্টগুলিতে এটি অর্জন করতে একেকভাবে করা যায়:
+
+    1. **কনস্ট্রাক্টরে বাইন্ড করা:** জাভাস্ক্রিপ্ট ক্লাসে, মেথডগুলি ডিফল্টভাবে বাইন্ড হয় না। একই নিয়ম প্রযোজ্য React ইভেন্ট হ্যান্ডলার হিসেবে ডিফাইন করা মেথডগুলিতে। সাধারিতভাবে এটির জন্য আমরা কনস্ট্রাক্টরে তাদের বাইন্ড করে থাকি।
+
+       ```javascript
+       class User extends Component {
+         constructor(props) {
+           super(props);
+           this.handleClick = this.handleClick.bind(this);
+         }
+         handleClick() {
+           console.log("SingOut triggered");
+         }
+         render() {
+           return <button onClick={this.handleClick}>SingOut</button>;
+         }
+       }
+       ```
+
+    2. **পাবলিক ক্লাস ফিল্ড সিনট্যাক্স:** আপনি যদি বাইন্ড পদ্ধতি ব্যবহার করতে না চান তবে _পাবলিক ক্লাস ফিল্ড সিনট্যাক্স_ ব্যবহার করা যেতে পারে যেটি সঠিকভাবে কলব্যাক বাইন্ড করে। ক্রিয়েট রিয়্যাক্ট অ্যাপ এ এই সিনট্যাক্সটি ডিফল্টভাবে চালু করে।
+
+       ```jsx harmony
+       handleClick = () => {
+         console.log("SingOut triggered", this);
+       };
+       ```
+
+       ```jsx harmony
+       <button onClick={this.handleClick}>SingOut</button>
+       ```
+
+    3. **ক্যালব্যাকে আরো ফাংশনগুলির মধ্যে বাড়িয়ে তোলা:** আপনি ক্যালব্যাকগুলি সরাসরি এরো ফাংশনগুলির মধ্যে বাড়িয়ে তোলতে এই পদ্ধতি ব্যবহার করতে পারেন।
+
+       ```jsx harmony
+       handleClick() {
+           console.log('SingOut triggered');
+       }
+       render() {
+           return <button onClick={() => this.handleClick()}>SignOut</button>;
+       }
+       ```
+
+    **নোট:** যদি ক্যালব্যাকটি চাইল্ড কম্পোনেন্টগুলিতে প্রোপ হিসেবে পাঠানো হয়, তাদের কম্পোনেন্টগুলি একটি অতিরিক্ত রি-রেন্ডারিং করতে পারে। সেই ক্ষেত্রে এটি `.bind()` বা _পাবলিক ক্লাস ফিল্ড সিনট্যাক্স_ পদ্ধতি ব্যবহার করা হয় যা কর্পোরেটিভ মন্তব্য হিসেবে গোলার হয়।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 15. ### How to pass a parameter to an event handler or callback?
 
     You can use an _arrow function_ to wrap around an _event handler_ and pass parameters:
@@ -909,6 +1414,32 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+15. ### কীভাবে একটি ইভেন্ট হ্যান্ডলার বা কলব্যাককে একটি প্যারামিটার পাঠাতে হয়?
+
+    আপনি একটি _এরো ফাংশন_ ব্যবহার করতে পারেন একটি _ইভেন্ট হ্যান্ডলার_ কে ঘিরে এবং প্যারামিটার পাঠাতে:
+
+    ```jsx harmony
+    <button onClick={() => this.handleClick(id)} />
+    ```
+
+    এটি হলো `.bind` কল করার সাথে সমতুল্য:
+
+    ```jsx harmony
+    <button onClick={this.handleClick.bind(this, id)} />
+    ```
+
+    এই দুইটি পদ্ধতির বাইরে, আপনি একটি ফাংশনে আর্গুমেন্ট পাঠাতে পারেন যা একটি এরো ফাংশনও হিসেবে ডিফাইন করা হয়েছে
+
+    ```jsx harmony
+    <button onClick={this.handleClick(id)} />;
+    handleClick = (id) => () => {
+      console.log("Hello, your ticket number is", id);
+    };
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
+
 16. ### What are synthetic events in React?
 
     `SyntheticEvent` is a cross-browser wrapper around the browser's native event. Its API is same as the browser's native event, including `stopPropagation()` and `preventDefault()`, except the events work identically across all browsers. The native events can be accessed directly from synthetic events using `nativeEvent` attribute.
@@ -932,6 +1463,30 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+16. ### রিয়েক্টে সিনথেটিক ইভেন্ট কি?
+
+    `SyntheticEvent` হলো ব্রাউজারের নেটিভ ইভেন্ট এর সাথে ক্রস-ব্রাউজার ওয়্যাপার। এর API হলো ব্রাউজারের নেটিভ ইভেন্টের মতো, `stopPropagation()` এবং `preventDefault()` সহ, কিন্তু এই ইভেন্টগুলি সমস্ত ব্রাউজারে একইভাবে কাজ করে। নেটিভ ইভেন্টগুলি সিনথেটিক ইভেন্ট ব্যবহার করে `nativeEvent` এট্রিবিউট ব্যবহার করে সরাসরি অ্যাক্সেস করা যায়।
+
+    একটি উদাহরণ নিচে দেওয়া হলো যেখানে বইস্টোর টাইটেল সার্চ কম্পোনেন্ট এবং সকল নেটিভ ইভেন্ট প্রোপার্টি প্রাপ্ত করতে পারবে
+
+    ```js
+    function BookStore() {
+      handleTitleChange(e) {
+        console.log('The new title is:', e.target.value);
+        // 'e' represents synthetic event
+        const nativeEvent = e.nativeEvent;
+        console.log(nativeEvent);
+        e.stopPropogation();
+        e.preventDefault();
+      }
+
+      return <input name="title" onChange={handleTitleChange} />
+    }
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
+
 17. ### What are inline conditional expressions?
 
     You can use either _if statements_ or _ternary expressions_ which are available from JS to conditionally render expressions. Apart from these approaches, you can also embed any expressions in JSX by wrapping them in curly braces and then followed by JS logical operator `&&`.
@@ -948,6 +1503,23 @@
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
+
+17. ### ইনলাইন শর্তমূলক অভিব্যন্তির কি?
+
+    আপনি এখানে সর্বাধিক সাধারিতা বোঝাতে চাইলে _if স্টেটমেন্ট_ বা _টার্নারি এক্সপ্রেশন_ ব্যবহার করতে পারেন যা JS থেকে সাধারিতা প্রাপ্ত। এই পদক্ষেপগুলির বাইরে, আপনি JSX এর মধ্যে যে কোনও এক্সপ্রেশন স্থানান্তর করতে চাইলে তাদের কাঁচামালায় পোড়া করতে পারেন এবং তারপরে JS এর লজিক্যাল অপারেটর `&&` দিয়ে অনুসরণ করতে হবে।
+
+    ```jsx harmony
+    <h1>Hello!</h1>;
+    {
+      messages.length > 0 && !isLogin ? (
+        <h2>You have {messages.length} unread messages.</h2>
+      ) : (
+        <h2>You don't have unread messages.</h2>
+      );
+    }
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 18. ### What is "key" prop and what is the benefit of using it in arrays of elements?
 
@@ -976,11 +1548,46 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+18. ### "key" প্রপার্টি কি এবং এটি এলমেন্ট অ্যারেগুলির সাথে এটি ব্যবহারের উপকারিতা কি?
+
+    `key` হলো একটি বিশেষ গুণধর্ম যা ডেটা ম্যাপিং করতে ব্যবহার করতে হয় যা আপনার উচ্চারণ করতে হবে। _key_ প্রপার্টি সাহায্য করে রিয়েক্টকে চিহ্নিত করতে সাহায্য করে কোনও আইটেম পরিবর্তিত হয়েছে, যোগ হয়েছে অথবা সরানো হয়েছে।
+
+    _Key_ গুলি তাদের সঙ্গীর মধ্যে অদ্ভুত হতে হবে। সবচেয়ে বেশি আমরা আমাদের ডেটা থেকে উত্তরাধিকারী ভিত্তি হিসেবে _key_ ব্যবহার করি:
+
+    ```jsx harmony
+    const todoItems = todos.map((todo) => <li key={todo.id}>{todo.text}</li>);
+    ```
+
+    যদি প্রদর্শিত আইটেমগুলির জন্য আপনি স্থির আইডি না থাকে তবে এটি শেষ বিকল্প হিসেবে আইটেমের _ইন্ডেক্স_ ব্যবহার করতে পারেন:
+
+    ```jsx harmony
+    const todoItems = todos.map((todo, index) => (
+      <li key={index}>{todo.text}</li>
+    ));
+    ```
+
+    **নোটঃ**
+
+    1. _ইন্ডেক্স_ এর জন্য _কী_ ব্যবহার করা **সুপারিশ করা হয়না** যদি আইটেমগুলির ক্রম পরিবর্তন হতে পারে। এটি কর্মক্ষমতা উল্লেখ করতে এবং কোম্পোনেন্ট স্টেটে সমস্যা সৃষ্টি করতে পারে।
+    2. আপনি আইটেমগুলি আলাদা করে আলাদা করে এক্সট্র্যাক্ট করতে চাইলে _কী_ প্রপার্টি যোগ করার বদলে তাদের _লিস্ট_ কম্পোনেন্টে প্রযোজ্য করুন।
+    3. লিস্ট আইটেমগুলির উপর _কী_ প্রপার্টি না থাকলে কনসোলে একটি সতর্কতা বার্তা থাকবে।
+    4. _কী_ প্রপার্টি স্ট্রিং বা নম্বর ধরে নেয় এবং তাকে অংতর্নিহিতভাবে স্ট্রিং টাইপে রূপান্তর করবে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
+
 19. ### What is the use of refs?
 
     The _ref_ is used to return a reference to the element. They _should be avoided_ in most cases, however, they can be useful when you need a direct access to the DOM element or an instance of a component.
 
     **[⬆ Back to Top](#table-of-contents)**
+
+19. ### রেফেরেন্স (refs) ব্যবহারের উদ্দেশ্য কি?
+
+    _রেফ (ref)_ হলো একটি উইজেট বা ডোম এলিমেন্টে এক্সেস করার জন্য একটি রেফারেন্স। এটি মোস্ট কেসেসে এড ভালো নয়, তাছাড়া আপনি ডোম এলিমেন্টের বা একটি কোম্পোনেন্টের একটি ইনস্ট্যান্সে সরাসরি অ্যাক্সেস প্রয়োজন হলে ব্যবহার করা যেতে পারে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 
 20. ### How to create refs?
 
@@ -1030,6 +1637,54 @@
     **Note**: You can also use inline ref callbacks even though it is not a recommended approach.
 
     **[⬆ Back to Top](#table-of-contents)**
+20. ### কিভাবে রেফ তৈরি করতে হয়?
+
+    দুটি উপায় রয়েছে
+
+    1. এটি হলো সর্বশেষভাবে যোগ করা একটি পদ্ধতি। _রেফ_ তৈরি করতে `React.createRef()` মেথড ব্যবহার করতে হয় এবং এটি _রেফ_ এট্রিবিউটের মাধ্যমে রিয়্যাক্ট এলিমেন্টে সংযুক্ত করতে হয়। কম্পোনেন্ট সারিবদ্ধ করতে একবার রেফটি ইন্সট্যান্স প্রপার্টির মধ্যে অ্যাসাইন করুন।
+
+       ```jsx harmony
+       class MyComponent extends React.Component {
+         constructor(props) {
+           super(props);
+           this.myRef = React.createRef();
+         }
+         render() {
+           return <div ref={this.myRef} />;
+         }
+       }
+       ```
+
+    2. আপনি যে কোনও রিয়্যাক্ট সংস্করণের ক্ষেত্রে রেফ ক্যালব্যাক পদ্ধতি ব্যবহার করতে পারেন। উদাহরণস্বরূপ, সার্চ বার কম্পোনেন্টের ইনপুট এলিমেন্টকে নিম্নলিখিতভাবে অ্যাক্সেস করা হয়।
+       ```jsx harmony
+       class SearchBar extends Component {
+         constructor(props) {
+           super(props);
+           this.txtSearch = null;
+           this.state = { term: "" };
+           this.setInputSearchRef = (e) => {
+             this.txtSearch = e;
+           };
+         }
+         onInputChange(event) {
+           this.setState({ term: this.txtSearch.value });
+         }
+         render() {
+           return (
+             <input
+               value={this.state.term}
+               onChange={this.onInputChange.bind(this)}
+               ref={this.setInputSearchRef}
+             />
+           );
+         }
+       }
+       ```
+
+    আপনি ফাংশন কম্পোনেন্টগুলিতে ও _রেফ_ ব্যবহার করতে পারেন এবং **ক্লোজার** ব্যবহার করে ইনলাইন রেফ ক্যালব্যাক ব্যবহার করতে পারেন।
+    **নোট**: ইনলাইন রেফ ক্যালব্যাকটি একটি সুপারিশ্রেষ্ঠ পদ্ধতি নয় তাই এটি ব্যবহার করা সুপারিশ্রেষ্ঠ প্রথা হয়নি।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 21. ### What are forward refs?
 
@@ -1048,6 +1703,23 @@
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
+21. ### ফরওয়ার্ড রেফ কি?
+
+    _রেফ ফরওয়ার্ডিং_ এটি একটি বৈশিষ্ট্য যা কিছু কম্পোনেন্টকে তাদের পান একটি _রেফ_ নিতে এবং এটি একটি শিশুকে আরও নিচে পাঠাতে দেয়।
+
+    ```jsx harmony
+    const ButtonElement = React.forwardRef((props, ref) => (
+      <button ref={ref} className="CustomButton">
+        {props.children}
+      </button>
+    ));
+
+    // Create ref to the DOM button:
+    const ref = React.createRef();
+    <ButtonElement ref={ref}>{"Forward Ref"}</ButtonElement>;
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 22. ### Which is preferred option with in callback refs and findDOMNode()?
 
@@ -1086,6 +1758,43 @@
     ```
 
     **[⬆ Back to Top](#table-of-contents)**
+22. ### কোনটি ক্যালব্যাক রেফ এবং findDOMNode() এর মধ্যে প্রথম বিকল্প?
+
+    বোঝানো হয়েছে যে _ক্যালব্যাক রেফ_ বা `findDOMNode()` API এর প্রতি সমর্থন করা হয়। কারণ `findDOMNode()` আসবে ভবিষ্যতে React এ কিছু উন্নতি করতে বাধা দেবে।
+
+    **লেগেসি** পদক্ষেপটি `findDOMNode` ব্যবহার করার:
+
+    ```javascript
+    class MyComponent extends Component {
+      componentDidMount() {
+        findDOMNode(this).scrollIntoView();
+      }
+
+      render() {
+        return <div />;
+      }
+    }
+    ```
+
+    এর বিকল্প হল:
+
+    ```javascript
+    class MyComponent extends Component {
+      constructor(props) {
+        super(props);
+        this.node = createRef();
+      }
+      componentDidMount() {
+        this.node.current.scrollIntoView();
+      }
+
+      render() {
+        return <div ref={this.node} />;
+      }
+    }
+    ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 23. ### Why are String Refs legacy?
 
@@ -1116,11 +1825,47 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+23. ### কেন String Refs লেগাসি?
+
+    যদি আপনি React দিয়ে কাজ করেন, তারপরে আপনি একটি পুরাতন API সহ হতে পারেন যেখানে `ref` এট্রিবিউট একটি স্ট্রিং, উদাহরণস্বরূপ `ref={'textInput'}`, এবং DOM নোডটি অ্যাক্সেস করা হয় `this.refs.textInput`. এটি উপেক্ষা করা হয়েছে কারণ _স্ট্রিং রেফের নিচে সমস্যা রয়েছে_, এবং এটি লেগাসি হিসেবে মন্নাই করা হয়েছে। স্ট্রিং রেফগুলি **React v16** এ সরিয়ে ফেলা হয়েছিল।
+
+    1. এটি _React কে বর্তমানে চলার সময় বিচার রাখা জোরায়_। এটি সমস্ত চলার মোডিউলকে স্টেটফুল করে রেখে তিনি অস্বাভাবিক ত্রুটি তৈরি করে।
+    2. এগুলি _যোগান নয়_ - যদি একটি লাইব্রেরি পাস করা হয় এবং ব্যবহারকারীকে এটির উপর আরও একটি রেফ পাওয়া যায় না। কলব্যাক রেফগুলি এটির উপর আরও একটি রেফ রাখতে পারে।
+    3. এগুলি _স্ট্যাটিক অ্যানালাইসিসের সাথে কাজ করে না_ - Flow প্রবণ, কোনও স্ট্রিং রেফকে যেভাবে তিনি `this.refs` উপর প্রদর্শিত হতে দেখেন, তার ম্যাজিক তা অনুমেয় করতে পারে না (যা ভিন্ন হতে পারে) এবং এর ধরণ (যা ভিন্ন হতে পারে) সহ। কলব্যাক রেফগুলি স্ট্যাটিক অ্যানালাইসিসের জন্য বন্ধুবান্ধব।
+    4. এটি "রেন্ডার কলব্যাক" প্যাটার্নে সামান্য লোক আপেক্ষিক ভাবে কাজ করে না (উদাহরণস্বরূপ <DataGrid renderRow={this.renderRow} />)
+
+       ```jsx
+       class MyComponent extends Component {
+         renderRow = (index) => {
+           // এটি কাজ হবে না। রেফ টেবিলে স্থানান্তর হবে না:
+           return <input ref={"input-" + index} />;
+
+           // এটি তবে কাজ করবে! কলব্যাক রেফগুলি বিশাল।
+           return <input ref={(input) => (this["input-" + index] = input)} />;
+         };
+
+         render() {
+           return (
+             <DataTable data={this.props.data} renderRow={this.renderRow} />
+           );
+         }
+       }
+       ```
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
+
+
 24. ### What is Virtual DOM?
 
     The _Virtual DOM_ (VDOM) is an in-memory representation of _Real DOM_. The representation of a UI is kept in memory and synced with the "real" DOM. It's a step that happens between the render function being called and the displaying of elements on the screen. This entire process is called _reconciliation_.
 
     **[⬆ Back to Top](#table-of-contents)**
+24. ### ভার্চুয়াল ডম কি?
+
+    _ভার্চুয়াল ডম_ (VDOM) হলো _রিয়েল ডমের_ মেমোরিতে প্রতিনিধিত্ব। একটি UI এর প্রতিষ্ঠানটি মেমোরিতে রাখা হয় এবং "রিয়েল" DOM সহ সিঙ্ক করা হয়। এটি রেন্ডার ফাংশনটি কল হওয়ার সময় ঘটতে এবং উপাদানগুলি স্ক্রীনে প্রদর্শন হওয়ার মধ্যে একটি ধাপ। এই পূর্ণ প্রক্রিয়াটি কে _রিকন্সিলিয়েশন_ বলা হয়।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 25. ### How Virtual DOM works?
 
@@ -1140,11 +1885,34 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+25. ### ভার্চুয়াল ডম কিভাবে কাজ করে?
+
+    ভার্চুয়াল ডম তিনটি সহজ ধাপে কাজ করে।
+
+    1. যখন কোনও মৌলিক ডেটা পরিবর্তন হয়, ভার্চুয়াল ডম প্রতিনিধিত্বে সম্পূর্ণ UI পুনরায় রেন্ডার হয়।
+
+       ![vdom](images/vdom1.png)
+
+    2. তারপরে আগের ডম প্রতিষ্ঠান এবং নতুনটির মধ্যে পার্থক্য গণনা হয়।
+
+       ![vdom2](images/vdom2.png)
+
+    3. গণনা হওয়ার পরে, প্রতিষ্ঠান ডমটি শুধুমাত্র সত্যিই পরিবর্তন হওয়া জিনিসগুলি দিয়ে আপডেট হয়।
+
+       ![vdom3](images/vdom3.png)
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+
 26. ### What is the difference between Shadow DOM and Virtual DOM?
 
     The _Shadow DOM_ is a browser technology designed primarily for scoping variables and CSS in _web components_. The _Virtual DOM_ is a concept implemented by libraries in JavaScript on top of browser APIs.
 
     **[⬆ Back to Top](#table-of-contents)**
+26. ### শ্যাডো ডম এবং ভার্চুয়াল ডমের মধ্যে পার্থক্য কি?
+
+    _শ্যাডো ডম_ হলো প্রধানত ভ্যারিয়েবল এবং সিএসএস স্কোপ করার জন্য মৌলিকভাবে তৈরি ব্রাউজার প্রযুক্তি যা _ওয়েব কম্পোনেন্টগুলিতে_ ব্যবহৃত হয়। _ভার্চুয়াল ডম_ হলো জাভাস্ক্রিপ্টের উপরে ব্রাউজার এপিআইগুলির উপর একটি কনসেপ্ট যা লাইব্রেরিতে ইমপ্লিমেন্ট হয়েছে।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
 
 27. ### What is React Fiber?
 
@@ -1152,6 +1920,12 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+27. ### রিয়েক্ট ফাইবার কি?
+
+    ফাইবার হলো রিয়েক্ট v16 এর কোর অ্যালগরিদম বা পুনরায় বানানোর একটি পুনরায় বানানো ইঞ্জিন বা কোর এলগোরিদমের পুনরায় বানানো। রিয়েক্ট ফাইবারের লক্ষ্য হলো এর ব্যবহারকে এনিমেশন, লেআউট, জেস্চার, কাজ স্থগিত করতে, কাজ বাতিল বা পুনঃব্যবহার করতে উপযোগী করা।
+
+    **[⬆ শীর্ষে ফিরুন](#table-of-contents)**
+    
 28. ### What is the main goal of React Fiber?
 
     The goal of _React Fiber_ is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering**: the ability to split rendering work into chunks and spread it out over multiple frames.
